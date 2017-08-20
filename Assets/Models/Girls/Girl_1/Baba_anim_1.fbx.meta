@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: 936e2205fc500864cb06aa604d8f5663
+timeCreated: 1500209082
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: Bone
+    100006: Bone.001
+    100008: Bone.002
+    100010: Bone_end
+    100012: Chest
+    100014: Cube
+    100016: Foot.L
+    100018: Foot.L_end
+    100020: Foot.R
+    100022: Foot.R_end
+    100024: Hand.L
+    100026: Hand.R
+    100028: Head
+    100030: Head_end
+    100032: IK_Pole.L
+    100034: IK_Pole.L_end
+    100036: IK_Pole.R
+    100038: IK_Pole.R_end
+    100040: IK_target.L
+    100042: IK_target.L_end
+    100044: IK_target.R
+    100046: IK_target.R_end
+    100048: Lower_arm.L
+    100050: Lower_arm.R
+    100052: Lower_leg.L
+    100054: Lower_leg.R
+    100056: Neck
+    100058: Thumb.L
+    100060: Thumb.L_end
+    100062: Thumb.R
+    100064: Thumb.R_end
+    100066: Torso
+    100068: Upper_arm.L
+    100070: Upper_arm.R
+    100072: Upper_leg.L
+    100074: Upper_leg.R
+    400000: Armature
+    400002: //RootNode
+    400004: Bone
+    400006: Bone.001
+    400008: Bone.002
+    400010: Bone_end
+    400012: Chest
+    400014: Cube
+    400016: Foot.L
+    400018: Foot.L_end
+    400020: Foot.R
+    400022: Foot.R_end
+    400024: Hand.L
+    400026: Hand.R
+    400028: Head
+    400030: Head_end
+    400032: IK_Pole.L
+    400034: IK_Pole.L_end
+    400036: IK_Pole.R
+    400038: IK_Pole.R_end
+    400040: IK_target.L
+    400042: IK_target.L_end
+    400044: IK_target.R
+    400046: IK_target.R_end
+    400048: Lower_arm.L
+    400050: Lower_arm.R
+    400052: Lower_leg.L
+    400054: Lower_leg.R
+    400056: Neck
+    400058: Thumb.L
+    400060: Thumb.L_end
+    400062: Thumb.R
+    400064: Thumb.R_end
+    400066: Torso
+    400068: Upper_arm.L
+    400070: Upper_arm.R
+    400072: Upper_leg.L
+    400074: Upper_leg.R
+    4300000: Cube
+    7400000: Armature|ArmatureAction
+    7400002: Armature|Walk_blocking
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone.001
+        weight: 1
+      - path: Armature/Bone.001/IK_target.L
+        weight: 1
+      - path: Armature/Bone.001/IK_target.L/IK_target.L_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/IK_target.R
+        weight: 1
+      - path: Armature/Bone.002/IK_target.R/IK_target.R_end
+        weight: 1
+      - path: Armature/IK_Pole.L
+        weight: 1
+      - path: Armature/IK_Pole.L/IK_Pole.L_end
+        weight: 1
+      - path: Armature/IK_Pole.R
+        weight: 1
+      - path: Armature/IK_Pole.R/IK_Pole.R_end
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Chest
+        weight: 1
+      - path: Armature/Torso/Chest/Neck
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Bone
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Bone/Bone_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L/Lower_leg.L
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L/Lower_leg.L/Foot.L
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L/Lower_leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R/Lower_leg.R
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R/Lower_leg.R/Foot.R
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R/Lower_leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk_blocking
+      takeName: Armature|Walk_blocking
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone.001
+        weight: 1
+      - path: Armature/Bone.001/IK_target.L
+        weight: 1
+      - path: Armature/Bone.001/IK_target.L/IK_target.L_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/IK_target.R
+        weight: 1
+      - path: Armature/Bone.002/IK_target.R/IK_target.R_end
+        weight: 1
+      - path: Armature/IK_Pole.L
+        weight: 1
+      - path: Armature/IK_Pole.L/IK_Pole.L_end
+        weight: 1
+      - path: Armature/IK_Pole.R
+        weight: 1
+      - path: Armature/IK_Pole.R/IK_Pole.R_end
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Chest
+        weight: 1
+      - path: Armature/Torso/Chest/Neck
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Bone
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Bone/Bone_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L/Lower_leg.L
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L/Lower_leg.L/Foot.L
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L/Lower_leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R/Lower_leg.R
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R/Lower_leg.R/Foot.R
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R/Lower_leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

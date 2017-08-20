@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 9ba35185d77155c4ba09ba4c81340729
+timeCreated: 1500739472
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Cube.004
+    100006: Foot.L
+    100008: Foot.L_end
+    100010: Foot.R
+    100012: Foot.R_end
+    100014: Foot_roll.L
+    100016: Foot_roll.R
+    100018: //RootNode
+    100020: Hand.L
+    100022: Hand.R
+    100024: Head
+    100026: Head_end
+    100028: Klach
+    100030: Klach.002
+    100032: Klach.002_end
+    100034: Klach_end
+    100036: Leg_control.L
+    100038: Leg_control.R
+    100040: Leg_IK.L
+    100042: Leg_IK.L_end
+    100044: Leg_IK.R
+    100046: Leg_IK.R_end
+    100048: leg_pole_T.L
+    100050: leg_pole_T.L_end
+    100052: leg_pole_T.R
+    100054: leg_pole_T.R_end
+    100056: Lower_arm.L
+    100058: Lower_arm.R
+    100060: Lower_leg.L
+    100062: Lower_leg.L_end
+    100064: Lower_leg.R
+    100066: Lower_leg.R_end
+    100068: Neck
+    100070: Thumb.L
+    100072: Thumb.L_end
+    100074: Thumb.R
+    100076: Thumb.R_end
+    100078: Torso
+    100080: Upper_arm.L
+    100082: Upper_arm.R
+    100084: Upper_leg.L
+    100086: Upper_leg.R
+    400000: Armature
+    400002: Chest
+    400004: Cube.004
+    400006: Foot.L
+    400008: Foot.L_end
+    400010: Foot.R
+    400012: Foot.R_end
+    400014: Foot_roll.L
+    400016: Foot_roll.R
+    400018: //RootNode
+    400020: Hand.L
+    400022: Hand.R
+    400024: Head
+    400026: Head_end
+    400028: Klach
+    400030: Klach.002
+    400032: Klach.002_end
+    400034: Klach_end
+    400036: Leg_control.L
+    400038: Leg_control.R
+    400040: Leg_IK.L
+    400042: Leg_IK.L_end
+    400044: Leg_IK.R
+    400046: Leg_IK.R_end
+    400048: leg_pole_T.L
+    400050: leg_pole_T.L_end
+    400052: leg_pole_T.R
+    400054: leg_pole_T.R_end
+    400056: Lower_arm.L
+    400058: Lower_arm.R
+    400060: Lower_leg.L
+    400062: Lower_leg.L_end
+    400064: Lower_leg.R
+    400066: Lower_leg.R_end
+    400068: Neck
+    400070: Thumb.L
+    400072: Thumb.L_end
+    400074: Thumb.R
+    400076: Thumb.R_end
+    400078: Torso
+    400080: Upper_arm.L
+    400082: Upper_arm.R
+    400084: Upper_leg.L
+    400086: Upper_leg.R
+    4300000: Cube.004
+    7400000: Armature|Gordon_Ramsey
+    7400002: Armature|Gordon_Ramsey.001
+    7400004: Armature|Gordon_Ramsey.002
+    9500000: //RootNode
+    13700000: Cube.004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Gordon_Ramsey
+      takeName: Armature|Gordon_Ramsey
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

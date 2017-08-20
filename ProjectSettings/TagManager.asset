@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CloneCenter
+  - Camera
+  - CloneTarget
+  - TapField
+  - UIManager
+  - Hostel
+  - Person
+  - Clone
+  - Car
+  - Dron
+  - TouchBlock
+  - Spawner
+  - Economics
+  - Bus
+  - Person2
+  - Person3
+  - HelicopterPlace
+  - Helicopter
+  - Crowd_0
+  - Person4
+  - Person5
+  - BusStation
+  - Canvas
+  - CarSpawner
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Road
+  - Vechicles
+  - Building
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

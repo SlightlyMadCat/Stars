@@ -1,0 +1,5 @@
+﻿using UnityEngine;using FGL.Enhance.Internals;public class Enhance_TapToDismissWithReward : MonoBehaviour{    // Destroy ourself and invoke reward when the next input event occurs    void Update()    {        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))        {            FGLEditorInternals.GrantReward();            Destroy(gameObject);            return;        }        if (Input.touchCount > 0)        {            if (Input.GetTouch(0).phase == TouchPhase.Began)            {                FGLEditorInternals.GrantReward();                Destroy(gameObject);                return;            }        }    }    private void OnDisable()
+    {
+        GameObject.FindGameObjectWithTag("Canvas").SetActive(true);
+        print(GameObject.FindGameObjectWithTag("Canvas"));
+    }}

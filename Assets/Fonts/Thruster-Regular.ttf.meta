@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7b6c35f4b88288242b110079dd3d1dcf
+timeCreated: 1498390682
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Thruster
+  fontNames:
+  - Thruster
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 329abd6699eb6f445b57943d7930d771, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locale>
+<!-- HOSTEL PRICES -->
+<!--   
+  ALL NEW PRICES for hostels and vehicles are calculated by this formula:
+  currentHostelPrice = currentHostelPrice * buildedSimilarHostels 
+-->
+	<HostelPrice 
+		SSN = "HOSTELPRICE"
+		
+		hostel_1="63.51" 
+		hostel_2="557"
+		hostel_3="12837"
+		hostel_4="313078"
+		hostel_5="36330375"
+		hostel_6="1744000000"
+		hostel_7="106766000000000"
+		hostel_8="294560000000000"
+		hostel_9="219400000000000"
+		hostel_10="1.66187e+16"
+		hostel_11="5.0924e+18"
+		hostel_12="3.856e+19"
+		hostel_13="2.90516e+20"
+		hostel_14="8.219e+20"
+		hostel_15="7.83e+24"
+	/>
+
+<!-- HOSTEL CAPACITIES -->	
+	<HostelCapacity
+		SSN = "HOSTELCAPACITY"
+		
+		hostel_1="250" 
+		hostel_2="500"
+		hostel_3="1000"
+		hostel_4="2000"
+		hostel_5="5000"
+		hostel_6="10000"
+		hostel_7="20000"
+		hostel_8="50000"
+		hostel_9="100000"
+		hostel_10="200000"
+		hostel_11="1000000"
+		hostel_12="9000"
+		hostel_13="10000"
+		hostel_14="11000"
+		hostel_15="99999"
+	/>
+	
+<!-- LEVEl FARM VALUES -->
+	<LevelFV
+		SSN = "LEVELFV"
+		
+		level_1 = "0.25"
+		level_2 = "1.25"
+		level_3 = "6.25"
+		level_4 = "30"
+		level_5 = "150"
+		level_6 = "700"
+		level_7 = "3000"
+		level_8 = "12500"
+		level_9 = "50000"
+		level_10 = "175000"
+		level_11 = "525000"
+		level_12 = "1500000"
+		level_13 = "10000000"
+		level_14 = "1000000000"
+		level_15 = "100000000000"
+	/>
+
+<!-- LEVEL COMPLETE VALUES -->
+	<LevelComplete
+		SSN = "LEVELCOMPLETE"
+		
+		level_1 = "1"
+		level_2 = "67000000"
+		level_3 = "5100000000"
+		level_4 = "230000000000"
+		level_5 = "150000000000000"
+		level_6 = "4.5e+16"
+		level_7 = "2e+19"
+		level_8 = "8e+22"
+		level_9 = "1.4e+26"
+		level_10 = "9.3e+30"
+		level_11 = "1.1e+34"
+		level_12 = "4.2e+36"
+		level_13 = "3.7e+39"
+		level_14 = "3.3e+43"
+		level_15 = "2.9e+47"
+	/>
+<!-- DRON -->
+<!-- spawnCd - time in seconds between dron spawn cycles
+	
+	dron shoot down prize calclulation: 
+	
+	float i = Random.Range(minPercent,maxPercent);        
+    double curPrize = economics.moneyPerSecond * i;      
+
+    if (economics.moneyPerSecond == 0)
+        curPrize = Random.Range(minPercent,maxPercent) * 100;
+-->
+	<Dron
+		SSN = "DRON"
+		
+		spawnCd = "30"	
+		minPrize = "0.5"
+		maxPrize = "3"
+	/>
+	
+<!-- PEOPLE ON STREET -->
+	<People
+		SSN = "PEOPLE"
+		
+		attractRate = "0.05"
+	/>
+	
+<!-- CLONE CENTER VALUES -->
+<!-- 
+	hatcheryPanelRefill - refill spawn panel per tick  - float
+	hatcheryPerPerson - each new person take this value from hatcheryPanel - float
+	cloneMakingRate - stars in hostel produce new stars with this rate  -  float
+-->
+	<CloneCenter
+		SSN = "CLONECENTER"
+		
+		hatcheryPanelRefill = "0.03"
+		hatcheryPerPerson = "0.01"
+		cloneMakingRate = "1e-06"
+	/>
+
+<!-- RECORDING STUDIO -->
+	<RecordingStudio
+		SSN = "RECORDINGSTUDIO"
+		
+		slotPrice = "10000"
+	/>
+<!-- MONEY MAKING--> 
+<!--
+	current money earning formula in update cycle:
+	
+	moneyPerSecond += numOfClones * moneyMakingRate + addToNextSecond;
+	if(moneyPerSecond >= 1)
+	{		
+		double cloneFactor = 250 * (lvlManager.currentLevel + 1);
+        double soulFactor = soulClones * (0.1f + soulClones * 0.01f);
+        double capacityFactor = 1 + 0.0001f * (cloneCenter.availableSlotsHostel - cloneCenter.clonesNum);
+
+        soulFactor = 1;         //TODO SOUL EGGS
+
+        double FV = (cloneCenter.clonesNum * lvlManager.cloneValues[lvlManager.currentLevel] * soulFactor * cloneFactor * capacityFactor * (int)moneyPerSecond * boostK);
+		
+		totalMoney += FV;
+		moneyPerSecond = 0;
+	}
+	
+	watch AD suggestion appears in random time between "watchAdmin" and "watchADmax"
+	random post gift appears in random time between "postGiftmin" and "postGiftmax"
+	
+  money by random post gift formula: 
+  float i = Random.Range(minPercent, maxPercent);         
+  curPrize = economics.moneyPerSecond / i * 100;
+
+  if (economics.moneyPerSecond == 0)
+     curPrize = Random.Range(minPercent, maxPercent) * 100;
+  
+	money by watching AD formula:
+	moneyPerAD = Random.Range(minPercentAd, maxPercentAd) * moneyPerSecond;
+ -->
+	<Money
+		SSN = "MONEY"
+		
+		moneyMakingRate = "5e-05"
+		watchAdmin = "20"
+		watchADmax = "100"
+		minPercentAd = "50"
+		maxPercentAd = "100"
+    postGiftmin = "60"
+		postGiftmax = "120"
+    minPercentGift = "1"
+    maxPercentGift = "10"
+	/>
+
+<!-- VEHICLES -->
+<!-- 
+  total vehicle carrying capacity formula:
+  
+  float f = (float)((60000d * economics.layingRate * cloneCenter.clonesNum) / totalCapacity);
+  
+  ALL NEW PRICES for hostels and vehicles are calculated by this formula:
+  currentHostelPrice = currentHostelPrice * buildedSimilarHostels
+-->
+  <VehiclePrice
+    SSN ="VEHICLEPRICE"
+    
+    vehicle_1 ="25"
+    vehicle_2 ="1401"
+    vehicle_3 ="5000"
+    vehicle_4 ="25000"
+    vehicle_5 ="45000"
+  />
+
+  <VehicleCapacity
+    SSN ="VEHICLECAPACITY"
+    
+    vehicle_1 ="5000"
+    vehicle_2 ="15000"
+    vehicle_3 ="50000"
+    vehicle_4 ="15000"
+    vehicle_5 ="25000"
+  />
+
+<!-- 
+    warp time formula: 
+    
+        earnedMoney = allMsc * economics.moneyPerSecond * economics.layingRate * economics.numOfClones;
+        newNumClones = economics.clonesNum * (Math.Pow((1 + (cloneCenter.cloneLayingRate * 6000d)), _i*60));
+-->
+</locale>

@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: d43784ceed314f5468437354eb610be6
+timeCreated: 1500544287
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Cube.007
+    100006: Foot.L
+    100008: Foot.L_end
+    100010: Foot.R
+    100012: Foot.R_end
+    100014: Foot_roll.L
+    100016: Foot_roll.R
+    100018: Hand.L
+    100020: Hand.R
+    100022: Head
+    100024: Head_end
+    100026: Klach
+    100028: Klach.002
+    100030: Klach.002_end
+    100032: Klach_end
+    100034: Leg_control.L
+    100036: Leg_control.R
+    100038: Leg_IK.L
+    100040: Leg_IK.L_end
+    100042: Leg_IK.R
+    100044: Leg_IK.R_end
+    100046: leg_pole_T.L
+    100048: leg_pole_T.L_end
+    100050: leg_pole_T.R
+    100052: leg_pole_T.R_end
+    100054: Lower_arm.L
+    100056: Lower_arm.R
+    100058: Lower_leg.L
+    100060: Lower_leg.L_end
+    100062: Lower_leg.R
+    100064: Lower_leg.R_end
+    100066: Neck
+    100068: //RootNode
+    100070: Thumb.L
+    100072: Thumb.L_end
+    100074: Thumb.R
+    100076: Thumb.R_end
+    100078: Torso
+    100080: Upper_arm.L
+    100082: Upper_arm.R
+    100084: Upper_leg.L
+    100086: Upper_leg.R
+    400000: Armature
+    400002: Chest
+    400004: Cube.007
+    400006: Foot.L
+    400008: Foot.L_end
+    400010: Foot.R
+    400012: Foot.R_end
+    400014: Foot_roll.L
+    400016: Foot_roll.R
+    400018: Hand.L
+    400020: Hand.R
+    400022: Head
+    400024: Head_end
+    400026: Klach
+    400028: Klach.002
+    400030: Klach.002_end
+    400032: Klach_end
+    400034: Leg_control.L
+    400036: Leg_control.R
+    400038: Leg_IK.L
+    400040: Leg_IK.L_end
+    400042: Leg_IK.R
+    400044: Leg_IK.R_end
+    400046: leg_pole_T.L
+    400048: leg_pole_T.L_end
+    400050: leg_pole_T.R
+    400052: leg_pole_T.R_end
+    400054: Lower_arm.L
+    400056: Lower_arm.R
+    400058: Lower_leg.L
+    400060: Lower_leg.L_end
+    400062: Lower_leg.R
+    400064: Lower_leg.R_end
+    400066: Neck
+    400068: //RootNode
+    400070: Thumb.L
+    400072: Thumb.L_end
+    400074: Thumb.R
+    400076: Thumb.R_end
+    400078: Torso
+    400080: Upper_arm.L
+    400082: Upper_arm.R
+    400084: Upper_leg.L
+    400086: Upper_leg.R
+    4300000: Cube.007
+    7400000: Nicki_bad_ass
+    7400002: Armature|Walk_blocking.001
+    9500000: //RootNode
+    13700000: Cube.007
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Nicki_bad_ass
+      takeName: Armature|Walk_blocking
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_control.L
+        weight: 1
+      - path: Armature/Leg_control.L/Foot.L
+        weight: 1
+      - path: Armature/Leg_control.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Leg_control.L/Foot_roll.L
+        weight: 1
+      - path: Armature/Leg_control.L/Foot_roll.L/Leg_IK.L
+        weight: 1
+      - path: Armature/Leg_control.L/Foot_roll.L/Leg_IK.L/Leg_IK.L_end
+        weight: 1
+      - path: Armature/Leg_control.R
+        weight: 1
+      - path: Armature/Leg_control.R/Foot.R
+        weight: 1
+      - path: Armature/Leg_control.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Leg_control.R/Foot_roll.R
+        weight: 1
+      - path: Armature/Leg_control.R/Foot_roll.R/Leg_IK.R
+        weight: 1
+      - path: Armature/Leg_control.R/Foot_roll.R/Leg_IK.R/Leg_IK.R_end
+        weight: 1
+      - path: Armature/leg_pole_T.L
+        weight: 1
+      - path: Armature/leg_pole_T.L/leg_pole_T.L_end
+        weight: 1
+      - path: Armature/leg_pole_T.R
+        weight: 1
+      - path: Armature/leg_pole_T.R/leg_pole_T.R_end
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Chest
+        weight: 1
+      - path: Armature/Torso/Chest/Neck
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L/Klach
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L/Klach/Klach_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.L/Lower_arm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R/Klach.002
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R/Klach.002/Klach.002_end
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_arm.R/Lower_arm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L/Lower_leg.L
+        weight: 1
+      - path: Armature/Torso/Upper_leg.L/Lower_leg.L/Lower_leg.L_end
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R/Lower_leg.R
+        weight: 1
+      - path: Armature/Torso/Upper_leg.R/Lower_leg.R/Lower_leg.R_end
+        weight: 1
+      - path: Cube.007
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
